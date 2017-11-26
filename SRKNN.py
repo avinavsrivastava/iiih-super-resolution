@@ -14,6 +14,7 @@ KNN=3
 type="double"
 channels=3
 
+
 def make_data(image):
 	patches_H=view_as_blocks(image,(H_patch,H_patch))
 	image_blur=ndimage.gaussian_filter(image,sigma=3)
