@@ -25,3 +25,14 @@ Steps for Executing SRKNN.py
    line prompt.
 8) PSNR will be reported on the console after reconstruction of every image in the test folder given in the command 
    line prompt.
+      
+ Steps for Executing SRSVR.py
+1) Download SRSVR.py and SVR.zip in local folder.
+2) Extract SVR.zip to get train , test and Result folders respectively.
+3) Use python 2.7
+3) Install all dependent packages PIL, skimage,sklearn, scipy, numpy, glob, matplotlib.
+4) Open terminal/command prompt and navigate to above download folder.
+5) Execute command "python SRSVR.py . The Train , Test and Result folders should be in the same path. K value is 10e4
+6) Execution will take less than 5 mins.
+7) Result folder will have the Low resolution Image and the corresponding reconstructed Image with LR and SR prefixed.
+8) PSNR ( Individual and Mean) will be reported on the console after reconstruction of every image as well as summary in command prompt
