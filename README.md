@@ -18,9 +18,10 @@ Steps for Executing SRKNN.py
 3) Use python 3.6.1
 3) Install all dependent packages sklearn, scipy, numpy, os, matplotlib.
 4) Open terminal/command prompt and navigate to above download folder.
-5) Execute command "python SRKNN.py <Path of the train folder> <Path for the test folder> <Path for the output to be saved>"
+5) Execute command "python SRKNN.py <Path of the train folder> 
+   <Path for the test folder> <Path for the output to be saved>"
 6) Execution will take less than 5 mins.
 7) Input high resolution, reconstructed image and blurred input images are saved in the output folder path given in the command
    line prompt.
-8) PSNR will be reported on the console after every image reconstruction is completed in the test folder given in the command 
+8) PSNR will be reported on the console after reconstruction of every image in the test folder given in the command 
    line prompt.
